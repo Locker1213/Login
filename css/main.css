@@ -1,0 +1,92 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+form {
+    background: rgba(0, 0, 0, 0.641);
+    backdrop-filter: blur(3px);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+.formClass{
+    width: 500px;
+}
+
+form h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 45px;
+    font-weight: bold;
+}
+label {
+    font-size: 18px;
+}
+form div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    background: transparent;
+    border: none;outline: none;
+    border-bottom: 1x solid white;
+}
+label {
+    font-size: 18px;
+    font-size: 20px;
+}
+
+input {
+    all: unset;
+    font-size: 17px;
+}
+
+input,button {
+    height: 50px;
+    width: 300px;
+
+    margin-top: .5rem;
+}
+
+button {
+    background: #ff884d;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    
+    border: none;outline: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: .15s ease-in;
+
+}
+button:hover {
+    transform: scale(1.05);
+}
+
+
