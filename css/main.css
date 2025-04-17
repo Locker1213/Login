@@ -88,5 +88,33 @@ button {
 button:hover {
     transform: scale(1.05);
 }
-
+.formClass .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forget label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forget a {
+    color: white;
+}
+.remember-forget p a:hover {
+    text-decoration: underline;
+}
+.formClass .Register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Register-link p a {
+color: #fff;
+text-decoration: none;
+font-weight: 600px;
+}
+.Register-link p a:hover {
+    text-decoration: underline;
+}
 
